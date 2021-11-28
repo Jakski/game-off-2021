@@ -1,0 +1,26 @@
+{
+  "name": "game-off-2021",
+  "version": "1.0.0",
+  "description": "Game Off 2021",
+  "main": "dist/index.js",
+  "types": "src/main.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "author": "Jakub Pieńkowski",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
